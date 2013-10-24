@@ -37,7 +37,7 @@ describe "StaticPages" do
                     :text => "Ruby on Rails Tutorial Sample App | About Us")
     end
   end
-    describe "Contact page" do
+    describe "Contact page" do 
 
     it "should have the content 'Contact'" do
       visit static_pages_contact_path
