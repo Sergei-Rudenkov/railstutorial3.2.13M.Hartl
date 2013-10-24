@@ -2,8 +2,9 @@ SampleApp::Application.routes.draw do
   get "static_pages/home"
 
   get "static_pages/help"
-  get "static_pages/about"
-
+  get "static_pages/about" 
+  get "static_pages/contact"
+ 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -21,7 +22,7 @@ SampleApp::Application.routes.draw do
   # Sample resource route with options:
   #   resources :products do
   #     member do
-  #       get 'short'
+  #       get 'short'   
   #       post 'toggle'
   #     end
   #
