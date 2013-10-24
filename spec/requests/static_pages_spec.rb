@@ -14,7 +14,7 @@ describe "StaticPages" do
     end
   end
     describe "Help page" do
-
+ 
     it "should have the content 'Help'" do
       visit static_pages_help_path
       page.should have_content('Help')
