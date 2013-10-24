@@ -22,7 +22,7 @@ SampleApp::Application.routes.draw do
   # Sample resource route with options:
   #   resources :products do
   #     member do
-  #       get 'short' 
+  #       get 'short'  
   #       post 'toggle'
   #     end
   #

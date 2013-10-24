@@ -18,7 +18,7 @@ describe "StaticPages" do
     it "should have the content 'Help'" do
       visit static_pages_help_path
       page.should have_content('Help')
-    end
+    end 
     it "should have the title 'Help'" do
       visit '/static_pages/help'
       page.should have_selector('title',
