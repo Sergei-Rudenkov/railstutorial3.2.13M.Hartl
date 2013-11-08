@@ -1,4 +1,4 @@
-require 'home_page_helper_spec'
+require 'spec_helper'
 
 describe "Static pages" do
 
