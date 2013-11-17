@@ -6,7 +6,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
 end
-
+gem 'faker', '1.0.1'
 group :development do
   gem 'annotate', '2.5.0'
 end
@@ -30,4 +30,5 @@ end
 group :production do
   gem 'pg', '0.12.2'
 end
-
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
